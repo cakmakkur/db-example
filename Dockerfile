@@ -1,7 +1,7 @@
 FROM postgres:latest
 
-ENV POSTGRES_USER=datingapp
-ENV POSTGRES_DB=datingapp
-ENV POSTGRES_PASSWORD=datingapp
+ENV POSTGRES_USER=myname
+ENV POSTGRES_DB=mydbname
+ENV POSTGRES_PASSWORD=mypassword
 
 COPY init.sql /docker-entrypoint-initdb.d/
